@@ -45,6 +45,18 @@ public final class ImmutableBook {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        ImmutableBook that = (ImmutableBook) o;
+        return publicationYear == that.publicationYear && Objects.equals(title, that.title) && Objects.equals(author, that.author) && Objects.equals(genres, that.genres);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(title, publicationYear, author, genres);
+    }
+
+    @Override
     public String toString() {
         return "ImmutableBook{" +
                 "title='" + title + '\'' +
