@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Иван Иванов",
+    "books": [
+      {
+        "title": "Clean Code",
+        "author": "Robert Martin",
+        "pages": 464,
+        "year": 2008
+      },
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "pages": 416,
+        "year": 2018
+      },
+      {
+        "title": "Java: The Complete Reference",
+        "author": "Herbert Schildt",
+        "pages": 1248,
+        "year": 2021
+      },
+      {
+        "title": "Thinking in Java",
+        "author": "Bruce Eckel",
+        "pages": 1150,
+        "year": 2006
+      },
+      {
+        "title": "Head First Java",
+        "author": "Kathy Sierra",
+        "pages": 688,
+        "year": 2005
+      }
+    ]
+  },
+  {
+    "name": "Петр Петров",
+    "books": [
+      {
+        "title": "Clean Code",
+        "author": "Robert Martin",
+        "pages": 464,
+        "year": 2008
+      },
+      {
+        "title": "Java Concurrency in Practice",
+        "author": "Brian Goetz",
+        "pages": 432,
+        "year": 2006
+      },
+      {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "pages": 448,
+        "year": 2018
+      },
+      {
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "pages": 395,
+        "year": 1994
+      },
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "pages": 416,
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "name": "Анна Смирнова",
+    "books": [
+      {
+        "title": "The Pragmatic Programmer",
+        "author": "David Thomas",
+        "pages": 352,
+        "year": 2019
+      },
+      {
+        "title": "Clean Architecture",
+        "author": "Robert Martin",
+        "pages": 432,
+        "year": 2017
+      },
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "pages": 416,
+        "year": 2018
+      },
+      {
+        "title": "Java Concurrency in Practice",
+        "author": "Brian Goetz",
+        "pages": 432,
+        "year": 2006
+      },
+      {
+        "title": "Domain-Driven Design",
+        "author": "Eric Evans",
+        "pages": 560,
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "name": "Алексей Сидоров",
+    "books": [
+      {
+        "title": "Design Patterns",
+        "author": "Erich Gamma",
+        "pages": 395,
+        "year": 1994
+      },
+      {
+        "title": "Clean Architecture",
+        "author": "Robert Martin",
+        "pages": 432,
+        "year": 2017
+      },
+      {
+        "title": "The Pragmatic Programmer",
+        "author": "David Thomas",
+        "pages": 352,
+        "year": 2019
+      },
+      {
+        "title": "Java: The Complete Reference",
+        "author": "Herbert Schildt",
+        "pages": 1248,
+        "year": 2021
+      },
+      {
+        "title": "Head First Java",
+        "author": "Kathy Sierra",
+        "pages": 688,
+        "year": 2005
+      }
+    ]
+  },
+  {
+    "name": "Мария Кузнецова",
+    "books": [
+      {
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "pages": 416,
+        "year": 2018
+      },
+      {
+        "title": "Clean Code",
+        "author": "Robert Martin",
+        "pages": 464,
+        "year": 2008
+      },
+      {
+        "title": "Refactoring",
+        "author": "Martin Fowler",
+        "pages": 448,
+        "year": 2018
+      },
+      {
+        "title": "Domain-Driven Design",
+        "author": "Eric Evans",
+        "pages": 560,
+        "year": 2003
+      },
+      {
+        "title": "Java Concurrency in Practice",
+        "author": "Brian Goetz",
+        "pages": 432,
+        "year": 2006
+      }
+    ]
+  }
+]
