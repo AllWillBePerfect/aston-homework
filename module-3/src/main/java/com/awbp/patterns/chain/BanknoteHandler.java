@@ -1,5 +1,6 @@
 package com.awbp.patterns.chain;
 
+/** Обработчик выдачи банкнот одного номинала. */
 public class BanknoteHandler {
 
     private int denomination;

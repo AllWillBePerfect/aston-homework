@@ -1,5 +1,6 @@
 package com.awbp.patterns.decorator;
 
+/** Декоратор страхования операций. */
 public class InsuranceDecorator
         extends AccountDecorator {
 

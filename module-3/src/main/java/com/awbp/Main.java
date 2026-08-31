@@ -31,6 +31,9 @@ public class Main {
 
     }
 
+    /**
+     * Пример Strategy
+     */
     public static void strategySample() {
         var paymentService = new PaymentService();
 
@@ -44,6 +47,9 @@ public class Main {
         paymentService.pay(300);
     }
 
+    /**
+     * Пример Chain of Responsibility
+     */
     public static void chainSample() {
         var handler50 = new BanknoteHandler(50);
         var handler10 = new BanknoteHandler(10);
@@ -55,6 +61,9 @@ public class Main {
         handler50.process(76);
     }
 
+    /**
+     * Пример Builder
+     */
     public static void builderSample() {
         var transfer = new Transfer.Builder()
                 .from("Alice")
@@ -67,6 +76,9 @@ public class Main {
     }
 
 
+    /**
+     * Пример Proxy
+     */
     public static void proxySample() {
         com.awbp.patterns.proxy.BankAccount realAccount =
                 new RealBankAccount(1000);
@@ -80,6 +92,10 @@ public class Main {
         account.withdraw(100, 1111);
     }
 
+
+    /**
+     * Пример Decorator
+     */
     public static void decoratorSample() {
         BankAccount account =
                 new BasicAccount(1000);
@@ -93,6 +109,9 @@ public class Main {
         );
     }
 
+    /**
+     * Пример Adapter
+     */
     public static void adapterSample() {
         var externalSystem =
                 new ExternalPaymentSystem();

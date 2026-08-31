@@ -1,5 +1,6 @@
 package com.awbp.patterns.stategy;
 
+/** Сервис выбора способа оплаты. */
 public class PaymentService {
 
     private PaymentStrategy strategy;

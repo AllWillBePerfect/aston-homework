@@ -1,5 +1,6 @@
 package com.awbp.patterns.stategy;
 
+/** Оплата через СБП. */
 public class SbpPayment implements PaymentStrategy {
 
     @Override

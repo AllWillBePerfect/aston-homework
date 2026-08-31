@@ -1,5 +1,6 @@
 package com.awbp.patterns.decorator;
 
+/** Базовый декоратор банковского счёта. */
 public abstract class AccountDecorator
         implements BankAccount {
 

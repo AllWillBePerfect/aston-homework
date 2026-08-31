@@ -1,5 +1,6 @@
 package com.awbp.patterns.stategy;
 
+/** Оплата наличными. */
 public class CashPayment implements PaymentStrategy {
 
     @Override

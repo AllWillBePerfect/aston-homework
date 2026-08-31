@@ -1,5 +1,6 @@
 package com.awbp.patterns.stategy;
 
+/** Оплата банковской картой. */
 public class CardPayment implements PaymentStrategy {
 
     @Override

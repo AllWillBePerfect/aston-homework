@@ -1,5 +1,6 @@
 package com.awbp.patterns.builder;
 
+/** Банковский перевод. */
 public class Transfer {
 
     private final String from;
@@ -18,6 +19,7 @@ public class Transfer {
         this.comment = builder.comment;
     }
 
+    /** Строитель банковского перевода. */
     public static class Builder {
 
         private String from;

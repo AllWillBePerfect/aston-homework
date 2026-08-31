@@ -1,5 +1,6 @@
 package com.awbp.patterns.proxy;
 
+/** Реальный банковский счёт. */
 public class RealBankAccount implements BankAccount {
 
     private int balance;

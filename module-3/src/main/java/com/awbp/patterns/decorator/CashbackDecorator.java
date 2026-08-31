@@ -1,6 +1,6 @@
 package com.awbp.patterns.decorator;
 
-
+/** Декоратор с начислением кешбэка. */
 public class CashbackDecorator
         extends AccountDecorator {
 

@@ -1,6 +1,6 @@
 package com.awbp.patterns.adapter;
 
-
+/** Адаптер внешней платёжной системы. */
 public class PaymentAdapter implements PaymentGateway {
 
     private final ExternalPaymentSystem externalSystem;

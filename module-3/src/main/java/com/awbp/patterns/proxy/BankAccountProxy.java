@@ -1,5 +1,6 @@
 package com.awbp.patterns.proxy;
 
+/** Прокси с проверкой PIN-кода. */
 public class BankAccountProxy implements BankAccount {
 
     private final BankAccount account;
