@@ -12,7 +12,7 @@ public class Main {
         // Нужно раскомментировать только одну строку для проверки
 //        runDeadlock();
 //        runLivelock();
-//        runSyncPrint();z
+//        runSyncPrint();
     }
 
     private static void runDeadlock() {
